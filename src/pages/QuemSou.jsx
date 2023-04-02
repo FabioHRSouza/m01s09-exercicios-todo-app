@@ -1,6 +1,8 @@
-import { Avatar } from "../components/Avatar";
-import { Bio } from "../components/Bio";
+//import { Avatar } from "../components/Avatar";
+//import { Bio } from "../components/Bio";
 import { Usuario } from "../components/Usuario";
+import Bio from "../components/Bio";
+import Avatar from "../components/Avatar";
 
 const redes = [
   {

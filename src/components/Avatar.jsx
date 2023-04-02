@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 export class Avatar extends React.Component {
   constructor(props) {
@@ -14,4 +14,17 @@ export class Avatar extends React.Component {
       />
     );
   }
+}*/
+
+import React from "react";
+
+function Avatar(props) {
+  return (
+    <img
+      src={props.src}
+      className="img-thumbnail"
+      alt={props.alt}
+    />
+  );
 }
+export default Avatar;
