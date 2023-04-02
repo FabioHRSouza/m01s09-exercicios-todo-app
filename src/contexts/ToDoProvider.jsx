@@ -39,7 +39,7 @@ export const ToDoProvider = ({ children }) => {
         pendingToDos,
       };
     return (
-    <ToDoContext.Provider value={{contextValues}}>
+    <ToDoContext.Provider value={{addToDo, markTodo, completedToDos, pendingToDos}}>
       {children}
     </ToDoContext.Provider>
   );
